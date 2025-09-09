@@ -19,5 +19,8 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 ### Demo 
 [OmniOne Open DID Demo-App](https://omnioneid.github.io/did-demo-app)  /  [OmniOne Open DID Demo-Server](https://github.com/OmniOneID/did-demo-server)
 
+### Lectures
+[OmniOne Open DID Lecture Series - English](https://omnioneid.github.io/?locale=en&version=V2.0.0#/V2.0.0/LECTURES) / [OmniOne Open DID Lecture Series - Korean](https://omnioneid.github.io/?locale=ko&version=V2.0.0#/V2.0.0/LECTURES_ko)
+
 ### Repositories
 ![OmniOne Open DID Repositories Overview](https://raw.githubusercontent.com/OmniOneID/.github/refs/heads/main/profile/repositories_overview.png)
