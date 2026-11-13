@@ -24,23 +24,11 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 
 ### Repositories
 
-| [⬛ Server Application](#-server-application) | [🟧 Server SDK](#-server-sdk) | [🟨 Mobile SDK](#-mobile-sdk) | [🟨 Mobile Application](#-mobile-application) |
-|---|---|---|---|
-| [did-ta-server](https://github.com/OmniOneID/did-ta-server) | [did-blockchain-sdk-server](https://github.com/OmniOneID/did-blockchain-sdk-server) | [did-client-sdk-aos](https://github.com/OmniOneID/did-client-sdk-aos) | [did-ca-aos](https://github.com/OmniOneID/did-ca-aos) |
-| [did-issuer-server](https://github.com/OmniOneID/did-issuer-server) | [did-core-sdk-server](https://github.com/OmniOneID/did-core-sdk-server) | [did-client-sdk-ios](https://github.com/OmniOneID/did-client-sdk-ios) | [did-ca-ios](https://github.com/OmniOneID/did-ca-ios) |
-| [did-verifier-server](https://github.com/OmniOneID/did-verifier-server) | [did-crypto-sdk-server](https://github.com/OmniOneID/did-crypto-sdk-server) | [did-client-sdk-aos-kotlin](https://github.com/OmniOneID/did-client-sdk-aos-kotlin) | [did-demo-app](https://github.com/OmniOneID/did-demo-app) |
-| [did-ca-server](https://github.com/OmniOneID/did-ca-server) | [did-datamodel-sdk-server](https://github.com/OmniOneID/did-datamodel-sdk-server) | [did-proximity-sdk-android](https://github.com/OmniOneID/did-proximity-sdk-android) | [did-proximity-verifier-android](https://github.com/OmniOneID/did-proximity-verifier-android) |
-| [did-wallet-server](https://github.com/OmniOneID/did-wallet-server) | [did-wallet-sdk-server](https://github.com/OmniOneID/did-wallet-sdk-server) | [did-proximity-sdk-ios](https://github.com/OmniOneID/did-proximity-sdk-ios) | [did-proximity-verifier-ios](https://github.com/OmniOneID/did-proximity-verifier-ios) |
-| [did-api-server](https://github.com/OmniOneID/did-api-server) | [did-cli-tool-server](https://github.com/OmniOneID/did-cli-tool-server) | **[🟨 Document](#-document)** | **[🟦 PoC](#-poc)** |
-| [did-fabric-contract](https://github.com/OmniOneID/did-fabric-contract) | [did-common-sdk-server](https://github.com/OmniOneID/did-common-sdk-server) | [did-doc-architecture](https://github.com/OmniOneID/did-doc-architecture) | [poc-oid4vc](https://github.com/OmniOneID/poc-oid4vc) |
-| [did-besu-contract](https://github.com/OmniOneID/did-besu-contract) | [did-zkp-sdk-server](https://github.com/OmniOneID/did-zkp-sdk-server) | [did-release](https://github.com/OmniOneID/did-release) | [poc-pqc](https://github.com/OmniOneID/poc-pqc) |
-| [did-demo-server](https://github.com/OmniOneID/did-demo-server) | [did-issuer-sdk-server](https://github.com/OmniOneID/did-issuer-sdk-server) |  |  |
-| [did-orchestrator-server](https://github.com/OmniOneID/did-orchestrator-server) | [did-ta-sdk-server](https://github.com/OmniOneID/did-ta-sdk-server) |  |  |
-| [did-ledger-service-server](https://github.com/OmniOneID/did-ledger-service-server) | [did-verifier-sdk-server](https://github.com/OmniOneID/did-verifier-sdk-server) |  |  |
-| [did-omn-resolver-driver-server](https://github.com/OmniOneID/did-omn-resolver-driver-server) |  |  |  |
-| [did-proxy-server](https://github.com/OmniOneID/did-proxy-server) |  |  |  |
+| [🟦 Server Application](#-server-application) | [🟩 Mobile Application](#-mobile-application) | [🟨 Document](#-document) |
+|---|---|---|
+| [🟪 Server SDK](#-server-sdk) | [🟧 Mobile SDK](#-mobile-sdk) | [🟥 PoC](#-poc) |
 
-#### ⬛ Server Application
+#### 🟦 Server Application
 
 | Repository | Description |
 |---|---|
@@ -58,7 +46,7 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 | <a href="https://github.com/OmniOneID/did-omn-resolver-driver-server"><code>&nbsp;did-omn-resolver-driver-server&nbsp;</code></a> | Universal Resolver Driver for did:omn |
 | <a href="https://github.com/OmniOneID/did-proxy-server"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-proxy-server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Proxy Server |
 
-#### 🟧 Server SDK
+#### 🟪 Server SDK
 
 | Repository | Description |
 |---|---|
@@ -74,17 +62,7 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 | <a href="https://github.com/OmniOneID/did-ta-sdk-server"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-ta-sdk-server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Trust Agent SDK for Server |
 | <a href="https://github.com/OmniOneID/did-verifier-sdk-server"><code>&nbsp;&nbsp;&nbsp;&nbsp;did-verifier-sdk-server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Verifier SDK for Server |
 
-#### 🟨 Mobile SDK
-
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/OmniOneID/did-client-sdk-aos"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-client-sdk-aos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | SDK for AOS Wallet |
-| <a href="https://github.com/OmniOneID/did-client-sdk-ios"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-client-sdk-ios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | SDK for iOS Wallet |
-| <a href="https://github.com/OmniOneID/did-client-sdk-aos-kotlin"><code>&nbsp;&nbsp;&nbsp;did-client-sdk-aos-kotlin&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | SDK for AOS Wallet - Kotlin |
-| <a href="https://github.com/OmniOneID/did-proximity-sdk-android"><code>&nbsp;&nbsp;&nbsp;did-proximity-sdk-android&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Proximity SDK for Android |
-| <a href="https://github.com/OmniOneID/did-proximity-sdk-ios"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-proximity-sdk-ios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Proximity SDK for iOS |
-
-#### 🟨 Mobile Application
+#### 🟩 Mobile Application
 
 | Repository | Description |
 |---|---|
@@ -94,6 +72,16 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 | <a href="https://github.com/OmniOneID/did-proximity-verifier-android"><code>&nbsp;did-proximity-verifier-android&nbsp;</code></a> | Proximity Verifier App for Android |
 | <a href="https://github.com/OmniOneID/did-proximity-verifier-ios"><code>&nbsp;&nbsp;&nbsp;did-proximity-verifier-ios&nbsp;&nbsp;&nbsp;</code></a> | Proximity Verifier App for iOS |
 
+#### 🟧 Mobile SDK
+
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/OmniOneID/did-client-sdk-aos"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-client-sdk-aos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | SDK for AOS Wallet |
+| <a href="https://github.com/OmniOneID/did-client-sdk-ios"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-client-sdk-ios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | SDK for iOS Wallet |
+| <a href="https://github.com/OmniOneID/did-client-sdk-aos-kotlin"><code>&nbsp;&nbsp;&nbsp;did-client-sdk-aos-kotlin&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | SDK for AOS Wallet - Kotlin |
+| <a href="https://github.com/OmniOneID/did-proximity-sdk-android"><code>&nbsp;&nbsp;&nbsp;did-proximity-sdk-android&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Proximity SDK for Android |
+| <a href="https://github.com/OmniOneID/did-proximity-sdk-ios"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-proximity-sdk-ios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Proximity SDK for iOS |
+
 #### 🟨 Document
 
 | Repository | Description |
@@ -101,7 +89,7 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 | <a href="https://github.com/OmniOneID/did-doc-architecture"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-doc-architecture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Open DID Architecture Document |
 | <a href="https://github.com/OmniOneID/did-release"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;did-release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></a> | Open DID Release Notes |
 
-#### 🟦 PoC
+#### 🟥 PoC
 
 | Repository | Description |
 |---|---|
