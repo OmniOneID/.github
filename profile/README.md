@@ -23,6 +23,23 @@ Furthermore, we will establish a Self-Sovereign Identity (SSI) system for margin
 [OmniOne Open DID Lecture Series - English](https://omnioneid.github.io/?locale=en&version=V2.0.0#/V2.0.0/LECTURES) / [OmniOne Open DID Lecture Series - Korean](https://omnioneid.github.io/?locale=ko&version=V2.0.0#/V2.0.0/LECTURES_ko)
 
 ### Repositories
+
+| [⬛ Server Application](#-server-application) | [🟧 Server SDK](#-server-sdk) | [🟨 Mobile SDK](#-mobile-sdk) | [🟨 Mobile Application](#-mobile-application) |
+|---|---|---|---|
+| [did-ta-server](https://github.com/OmniOneID/did-ta-server) | [did-blockchain-sdk-server](https://github.com/OmniOneID/did-blockchain-sdk-server) | [did-client-sdk-aos](https://github.com/OmniOneID/did-client-sdk-aos) | [did-ca-aos](https://github.com/OmniOneID/did-ca-aos) |
+| [did-issuer-server](https://github.com/OmniOneID/did-issuer-server) | [did-core-sdk-server](https://github.com/OmniOneID/did-core-sdk-server) | [did-client-sdk-ios](https://github.com/OmniOneID/did-client-sdk-ios) | [did-ca-ios](https://github.com/OmniOneID/did-ca-ios) |
+| [did-verifier-server](https://github.com/OmniOneID/did-verifier-server) | [did-crypto-sdk-server](https://github.com/OmniOneID/did-crypto-sdk-server) | [did-client-sdk-aos-kotlin](https://github.com/OmniOneID/did-client-sdk-aos-kotlin) | [did-demo-app](https://github.com/OmniOneID/did-demo-app) |
+| [did-ca-server](https://github.com/OmniOneID/did-ca-server) | [did-datamodel-sdk-server](https://github.com/OmniOneID/did-datamodel-sdk-server) | [did-proximity-sdk-android](https://github.com/OmniOneID/did-proximity-sdk-android) | [did-proximity-verifier-android](https://github.com/OmniOneID/did-proximity-verifier-android) |
+| [did-wallet-server](https://github.com/OmniOneID/did-wallet-server) | [did-wallet-sdk-server](https://github.com/OmniOneID/did-wallet-sdk-server) | [did-proximity-sdk-ios](https://github.com/OmniOneID/did-proximity-sdk-ios) | [did-proximity-verifier-ios](https://github.com/OmniOneID/did-proximity-verifier-ios) |
+| [did-api-server](https://github.com/OmniOneID/did-api-server) | [did-cli-tool-server](https://github.com/OmniOneID/did-cli-tool-server) | **[🟨 Document](#-document)** | **[🟦 PoC](#-poc)** |
+| [did-fabric-contract](https://github.com/OmniOneID/did-fabric-contract) | [did-common-sdk-server](https://github.com/OmniOneID/did-common-sdk-server) | [did-doc-architecture](https://github.com/OmniOneID/did-doc-architecture) | [poc-oid4vc](https://github.com/OmniOneID/poc-oid4vc) |
+| [did-besu-contract](https://github.com/OmniOneID/did-besu-contract) | [did-zkp-sdk-server](https://github.com/OmniOneID/did-zkp-sdk-server) | [did-release](https://github.com/OmniOneID/did-release) | [poc-pqc](https://github.com/OmniOneID/poc-pqc) |
+| [did-demo-server](https://github.com/OmniOneID/did-demo-server) | [did-issuer-sdk-server](https://github.com/OmniOneID/did-issuer-sdk-server) |  |  |
+| [did-orchestrator-server](https://github.com/OmniOneID/did-orchestrator-server) | [did-ta-sdk-server](https://github.com/OmniOneID/did-ta-sdk-server) |  |  |
+| [did-ledger-service-server](https://github.com/OmniOneID/did-ledger-service-server) | [did-verifier-sdk-server](https://github.com/OmniOneID/did-verifier-sdk-server) |  |  |
+| [did-omn-resolver-driver-server](https://github.com/OmniOneID/did-omn-resolver-driver-server) |  |  |  |
+| [did-proxy-server](https://github.com/OmniOneID/did-proxy-server) |  |  |  |
+
 #### ⬛ Server Application
 
 | Repository | Description |
